@@ -60,12 +60,12 @@ function preload() {
         pages_7b.push(loadImage('/images/page7b_' + i + '.JPG'));
     }
     
+    /*
     for (let i = 0; i < totalpages_branch19; i++) { // can add more pages later
       pages_19a.push(loadImage('/images/page19a_' + i + '.JPG'));
       pages_19b.push(loadImage('/images/page19b_' + i + '.JPG'));
     }
-
-    /*
+      
       
     pages_19a.push(loadImage('https://sapeurzcode.github.io/fmpshow/images/page19a_0.JPG'));
     pages_19b.push(loadImage('https://sapeurzcode.github.io/fmpshow/images/page19b_0.JPG'));
