@@ -51,29 +51,29 @@ let slider;
 // Preload all the images before the sketch starts
 function preload() {
   for ( let i = 0; i < totalpages_main; i++) {
-    let page = loadImage('images/page'+ i + '.JPG');
+    let page = loadImage('https://sapeurzcode.github.io/fmpshow/images/page'+ i + '.JPG');
     pages_main.push(page);
 //    pages_main[i] = loadImage('images/page'+ i + '.JPG');
   }
   for (let i = 0; i < totalpages_branch7; i++) { // can add more pages later
-    pages_7a.push(loadImage('images/page7a_' + i + '.JPG'));
+    pages_7a.push(loadImage('https://sapeurzcode.github.io/fmpshow/images/page7a_' + i + '.JPG'));
     pages_7b.push(loadImage('images/page7b_' + i + '.JPG'));
   }
   for (let i = 0; i < totalpages_branch19; i++) { // can add more pages later
-    pages_19a.push(loadImage('images/page19a_' + i + '.JPG'));
-    pages_19b.push(loadImage('images/page19b_' + i + '.JPG'));
+    pages_19a.push(loadImage('https://sapeurzcode.github.io/fmpshow/images/page19a_' + i + '.JPG'));
+    pages_19b.push(loadImage('https://sapeurzcode.github.io/fmpshow/images/page19b_' + i + '.JPG'));
   }
   for (let i = 0; i < totalpages_branch39a; i++) { // can add more pages later
-    pages_39a.push(loadImage('images/page39a_' + i + '.JPG'));
+    pages_39a.push(loadImage('https://sapeurzcode.github.io/fmpshow/images/page39a_' + i + '.JPG'));
   }
   for (let i = 0; i < totalpages_branch39b; i++) { // can add more pages later
-    pages_39b.push(loadImage('images/page39b_' + i + '.JPG'));
+    pages_39b.push(loadImage('https://sapeurzcode.github.io/fmpshow/images/page39b_' + i + '.JPG'));
   }
 
                                       //MUSIC
-  spacesinbetween = loadSound('music/spacesinbetween.mp3');   //music to be played in the middle ground
-  dearlittlebrother = loadSound('music/dearlittlebrother.mp3');   //music to be played in the real world
-  calm = loadSound('music/calm.mp3')  //music to be playes when mc enters husbands dream
+  spacesinbetween = loadSound('https://sapeurzcode.github.io/fmpshow/music/spacesinbetween.mp3');   //music to be played in the middle ground
+  dearlittlebrother = loadSound('https://sapeurzcode.github.io/fmpshow/music/dearlittlebrother.mp3');   //music to be played in the real world
+  calm = loadSound('https://sapeurzcode.github.io/fmpshow/music/calm.mp3')  //music to be playes when mc enters husbands dream
 }
 
 function setup() {
