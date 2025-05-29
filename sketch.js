@@ -55,6 +55,7 @@ function preload() {
         pages_main.push(page);
         //    pages_main[i] = loadImage('images/page'+ i + '.JPG');
     }
+    /*
       
     for (let i = 0; i < totalpages_branch7; i++) { // can add more pages later
         pages_7a.push(loadImage('images/page7a_' + i + '.JPG'));
@@ -73,7 +74,7 @@ function preload() {
     for (let i = 0; i < totalpages_branch39b; i++) { // can add more pages later
         pages_39b.push(loadImage('images/page39b_' + i + '.JPG'));
     }
-
+*/
     //MUSIC
     spacesinbetween = loadSound('music/spacesinbetween.mp3');   //music to be played in the middle ground
     dearlittlebrother = loadSound('music/dearlittlebrother.mp3');   //music to be played in the real world
