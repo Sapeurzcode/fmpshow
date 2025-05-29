@@ -55,21 +55,18 @@ function preload() {
         pages_main.push(page);
         //    pages_main[i] = loadImage('images/page'+ i + '.JPG');
     }
+      
     for (let i = 0; i < totalpages_branch7; i++) { // can add more pages later
         pages_7a.push(loadImage('/images/page7a_' + i + '.JPG'));
         pages_7b.push(loadImage('/images/page7b_' + i + '.JPG'));
     }
     
-    /*
+
     for (let i = 0; i < totalpages_branch19; i++) { // can add more pages later
-      pages_19a.push(loadImage('/images/page19a_' + i + '.JPG'));
-      pages_19b.push(loadImage('/images/page19b_' + i + '.JPG'));
-    }
-      
-      
-    pages_19a.push(loadImage('https://sapeurzcode.github.io/fmpshow/images/page19a_0.JPG'));
-    pages_19b.push(loadImage('https://sapeurzcode.github.io/fmpshow/images/page19b_0.JPG'));
-*/
+        pages_19a.push(loadImage('/images/page19a_' + i + '.JPG'));
+        pages_19b.push(loadImage('/images/page19b_' + i + '.JPG'));
+      }
+   
     for (let i = 0; i < totalpages_branch39a; i++) { // can add more pages later
         pages_39a.push(loadImage('/images/page39a_' + i + '.JPG'));
     }
